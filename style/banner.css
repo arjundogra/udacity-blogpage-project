@@ -1,0 +1,20 @@
+.banner{
+	grid-area: bn;
+	width: 100%;
+	text-align: center;
+	background-image: url("../img/intro.jpg");
+	background-size: cover;
+	background-position: center;
+	margin: 5px;
+}
+.banner h1{
+	font-size: 3em;
+	margin: 5px;
+}
+#homepageBtn{
+	color: red;
+	text-decoration: none;
+}
+#homepageBtn:hover{
+	color: blue;
+}

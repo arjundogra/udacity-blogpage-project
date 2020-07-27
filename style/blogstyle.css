@@ -1,3 +1,6 @@
+@import url('footer.css');
+@import url('banner.css');
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -17,20 +20,6 @@
 
 }
 
-/*Banner*/
-.banner{
-	grid-area: bn;
-	width: 100%;
-	text-align: center;
-	background-image: url("../img/intro.jpg");
-	background-size: cover;
-	background-position: center;
-	margin: 5px;
-}
-.banner h1{
-	font-size: 3em;
-	margin-top: 20px;
-}
 /*Content*/
 .content{
 	grid-area: ct;
@@ -113,19 +102,9 @@ ul li{
 	display: inline-block;
 }
 
-footer{
-	grid-area: ft;
-	margin-bottom: 0px;
-	padding: 10px auto;
-	text-align: center;
-}
-footer p{
-	margin: 10px;
-}
-
 @media only screen and (max-width: 600px){
 	.banner{
-		height: 80px;
+		height: 100px;
 	}
 	.banner  h1{
 		margin-top: 3%;

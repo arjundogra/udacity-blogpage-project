@@ -1,0 +1,13 @@
+.intro{
+	grid-area: it;
+	width: 100%;
+	text-align: center;
+	background-image: url("../img/intro.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.intro h1{
+	font-size: 2.5em;
+	margin-top: 80px;
+}

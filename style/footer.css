@@ -1,0 +1,9 @@
+#footer{
+	grid-area: ft;
+	margin-bottom: 0px;
+	padding: 10px auto;
+	text-align: center;
+}
+#footer p{
+	margin: 10px;
+}
